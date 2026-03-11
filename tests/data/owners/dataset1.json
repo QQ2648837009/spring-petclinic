@@ -1,0 +1,15 @@
+{
+  "name": "创建主人数据集1 - 正常数据",
+  "description": "使用正常数据创建主人",
+  "test_data": {
+    "first_name": "John",
+    "last_name": "Smith",
+    "address": "123 Main Street",
+    "city": "New York",
+    "telephone": "2125551234"
+  },
+  "expected_results": {
+    "success_message": "Owner Details",
+    "redirect_page": "owners/detail"
+  }
+}

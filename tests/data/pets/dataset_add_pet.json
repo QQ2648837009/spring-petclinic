@@ -1,0 +1,16 @@
+{
+  "name": "Add Pet - Dog",
+  "description": "Add a dog pet to an existing owner",
+  "test_data": {
+    "name": "Max",
+    "birth_date": "2022-05-10",
+    "pet_type": "dog"
+  },
+  "expected_results": {
+    "success": true,
+    "verify_fields": {
+      "name": "Max",
+      "type": "dog"
+    }
+  }
+}

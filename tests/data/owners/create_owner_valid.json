@@ -1,0 +1,15 @@
+{
+  "name": "创建主人 - 正常数据",
+  "description": "使用完整有效信息创建新主人",
+  "test_data": {
+    "first_name": "张三",
+    "last_name": "李四",
+    "address": "北京市朝阳区建国路88号",
+    "city": "北京",
+    "telephone": "13800138000"
+  },
+  "expected_results": {
+    "redirect_to_details": true,
+    "success_message": null
+  }
+}

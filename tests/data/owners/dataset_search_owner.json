@@ -1,0 +1,12 @@
+{
+  "name": "Search Owner - Franklin",
+  "description": "Search for owner by last name Franklin",
+  "test_data": {
+    "lastname": "Franklin"
+  },
+  "expected_results": {
+    "success": true,
+    "min_results": 1,
+    "verify_names_contain": "Franklin"
+  }
+}

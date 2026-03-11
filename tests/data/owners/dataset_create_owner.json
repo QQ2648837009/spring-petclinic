@@ -1,0 +1,19 @@
+{
+  "name": "Create Owner - John Smith",
+  "description": "Create a new owner with complete information",
+  "test_data": {
+    "first_name": "John",
+    "last_name": "Smith",
+    "address": "123 Main Street",
+    "city": "Springfield",
+    "telephone": "555-1234"
+  },
+  "expected_results": {
+    "success": true,
+    "redirect_page": "owner_details",
+    "verify_fields": {
+      "name_contains": "John Smith",
+      "city": "Springfield"
+    }
+  }
+}

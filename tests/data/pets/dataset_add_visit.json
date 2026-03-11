@@ -1,0 +1,12 @@
+{
+  "name": "Add Visit - Annual Checkup",
+  "description": "Add an annual checkup visit record",
+  "test_data": {
+    "date": "2024-03-15",
+    "description": "Annual checkup - all healthy"
+  },
+  "expected_results": {
+    "success": true,
+    "verify_description_contains": "Annual checkup"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "添加宠物 - 正常数据",
+  "description": "为已有主人添加新宠物",
+  "test_data": {
+    "name": "Max",
+    "birth_date": "2022-05-15",
+    "pet_type": "dog"
+  },
+  "expected_results": {
+    "success": true,
+    "pet_name": "Max"
+  }
+}

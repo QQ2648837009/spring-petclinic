@@ -1,0 +1,13 @@
+{
+  "name": "创建宠物数据集1 - 狗",
+  "description": "为测试主人创建一只狗",
+  "test_data": {
+    "name": "Buddy",
+    "birth_date": "2020-05-15",
+    "pet_type": "dog"
+  },
+  "expected_results": {
+    "success_message": "Pet Details",
+    "pet_name": "Buddy"
+  }
+}

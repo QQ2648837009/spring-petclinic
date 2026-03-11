@@ -1,0 +1,11 @@
+{
+  "name": "搜索主人 - 有效姓氏",
+  "description": "使用存在的姓氏搜索主人",
+  "test_data": {
+    "lastname": "Franklin"
+  },
+  "expected_results": {
+    "should_find_results": true,
+    "min_results": 1
+  }
+}

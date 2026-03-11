@@ -1,0 +1,12 @@
+{
+  "name": "添加就诊记录",
+  "description": "为宠物添加就诊记录",
+  "test_data": {
+    "visit_date": "2024-03-15",
+    "description": "Annual health checkup - all clear"
+  },
+  "expected_results": {
+    "success": true,
+    "visit_added": true
+  }
+}
